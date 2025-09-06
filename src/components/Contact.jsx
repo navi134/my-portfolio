@@ -6,10 +6,13 @@ export default function Contact() {
         Email: <a href="mailto:navi@example.com" className="text-teal-400">nab22cs@cmrit.ac.in</a>
       </p>
       <p className="text-gray-300 mt-2">
-        LinkedIn: <a href="#" className="text-teal-400">linkedin.com/in/navi</a>
+        LinkedIn: <a href="#" className="text-teal-400">https://www.linkedin.com/in/naveen-b-26a88a33a/</a>
       </p>
       <p className="text-gray-300 mt-2">
-        GitHub: <a href="#" className="text-teal-400">navi134</a>
+        GitHub: <a href="#" className="text-teal-400">https://github.com/navi134</a>
+      </p>
+      <p className="text-gray-300 mt-2">
+        Mobile No: <a href="#" className="text-teal-400">+91 9353736271</a>
       </p>
     </section>
   )
