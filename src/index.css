@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Smooth scrolling for navigation */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-gray-900 text-white;
+}
+
+/* Optional: custom scrollbar for modern look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+::-webkit-scrollbar-thumb {
+  background: #4ade80;
+  border-radius: 4px;
 }
